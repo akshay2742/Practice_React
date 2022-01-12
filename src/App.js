@@ -13,7 +13,7 @@ function App() {
       <Message />
       <Counter />
       <Formdata />
-     {/* <Demo name="Akshay" institute="NIT Raipur">
+     <Demo name="Akshay" institute="NIT Raipur">
        <p>I am learning React</p>
      </Demo>
      <Demo name="Aditya" institute="NIT Raipur">
@@ -26,7 +26,7 @@ function App() {
      <Welcome name="Aditya" institute="USCIT">
        <button>Submit</button>
      </Welcome>
-     <Welcome name="Ankit" institute="USCIT"/> */}
+     <Welcome name="Ankit" institute="USCIT"/>
 
     </div>
   );
