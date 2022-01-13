@@ -6,6 +6,11 @@ import Welcome from './components/greet';
 import Message from './components/message'
 import Counter from './components/counter';
 import Formdata from './components/Formdata';
+import CheckButton from './components/ButtonClick';
+import ClassClick from './components/ClassClick'
+import EventBind from './components/EventBind'
+import ParentComp from './components/ParentComp';
+
 
 function App() {
   return (
@@ -28,6 +33,10 @@ function App() {
      </Welcome>
      <Welcome name="Ankit" institute="USCIT"/>
 
+     <CheckButton />
+     <ClassClick />
+     <EventBind />
+     <ParentComp />
     </div>
   );
 }
