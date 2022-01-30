@@ -10,9 +10,11 @@ import CheckButton from './components/ButtonClick';
 import ClassClick from './components/ClassClick'
 import EventBind from './components/EventBind'
 import ParentComp from './components/ParentComp';
+import UserGreeting from './components/UserGreeting';
 
 
 function App() {
+
   return (
     <div className="App">
       <Message />
@@ -37,6 +39,7 @@ function App() {
      <ClassClick />
      <EventBind />
      <ParentComp />
+     <UserGreeting />
     </div>
   );
 }
