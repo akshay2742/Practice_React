@@ -11,6 +11,7 @@ import ClassClick from './components/ClassClick'
 import EventBind from './components/EventBind'
 import ParentComp from './components/ParentComp';
 import UserGreeting from './components/UserGreeting';
+import LoginForm from './components/LoginForm';
 
 
 function App() {
@@ -39,7 +40,9 @@ function App() {
      <ClassClick />
      <EventBind />
      <ParentComp />
-     <UserGreeting />
+     <UserGreeting>
+     </UserGreeting>
+     <LoginForm />
     </div>
   );
 }
