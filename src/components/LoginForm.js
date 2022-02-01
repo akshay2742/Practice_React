@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../css/LoginForm.css'
 
 class LoginForm extends Component {
 
@@ -16,8 +17,8 @@ class LoginForm extends Component {
         let x = document.getElementById('form_name');
         let y = document.getElementById('form_password');
         let z = document.getElementById('heading')
-        let q = document.getElementById('form')
-        if (x.value == "" && y.value == "") {
+        
+        if (x.value === "" && y.value === "") {
             alert("Fill the boxes!!")
             z.style.display = "none"
             
@@ -27,6 +28,7 @@ class LoginForm extends Component {
                 name: x.value,
                 password: y.value
             })
+            z.style.display = "block"
            
 
         }
@@ -34,11 +36,12 @@ class LoginForm extends Component {
     }
     
   render() {
+      
     return (<div>
         <form id='form'>
             <input type="text" id='form_name' placeholder='Enter Your Name'></input>
             <input type="password" id='form_password' placeholder='Enter Your Password'></input>
-            <button type="button" onClick={() => this.submit()}>Submit</button>
+            <button type="button" id='form_button' onClick={() => this.submit()}>Submit</button>
             <h1 id='heading'>Name: {this.state.name} Password: {this.state.password}</h1>
         </form>
     </div>
