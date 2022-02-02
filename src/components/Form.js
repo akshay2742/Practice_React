@@ -39,7 +39,7 @@ export class Form extends Component {
             <input type="text" value={this.state.username} onChange={this.ChangeUsername} ></input>
             <label>Comments</label>
             <textarea value={this.state.comments} onChange={this.ChangeComments}></textarea>
-            <select onChange={this.ChangeTopic}>
+            <select value={this.state.topic} onChange={this.ChangeTopic}>
                 <option value="react">React</option>
                 <option value="angular">Angular</option>
                 <option value="vue">Vue</option>

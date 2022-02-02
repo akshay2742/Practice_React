@@ -14,6 +14,10 @@ import LoginForm from './components/LoginForm';
 import NameList from './components/NameList';
 import StyleSheet from './components/StyleSheet';
 import Form from './components/Form';
+import TableParent from './components/TableParent';
+import LifecycleA from './components/LifecycleA';
+import PureComp from './components/PureComp';
+import ParentRegComp from './components/ParentRegComp';
 
 function App() {
 
@@ -47,6 +51,10 @@ function App() {
      <NameList />
      <StyleSheet className={true}/> */}
      <Form />
+     <TableParent />
+     {/* <LifecycleA /> */}
+     <PureComp />
+     <ParentRegComp />
     </div>
   );
 }
