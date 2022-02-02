@@ -12,13 +12,14 @@ import ParentComp from './components/ParentComp';
 import UserGreeting from './components/UserGreeting';
 import LoginForm from './components/LoginForm';
 import NameList from './components/NameList';
-
+import StyleSheet from './components/StyleSheet';
+import Form from './components/Form';
 
 function App() {
 
   return (
     <div className="App">
-      <Message />
+      {/* <Message />
       <Counter />
       <Formdata />
      <Demo name="Akshay" institute="NIT Raipur">
@@ -44,6 +45,8 @@ function App() {
      </UserGreeting>
      <LoginForm />
      <NameList />
+     <StyleSheet className={true}/> */}
+     <Form />
     </div>
   );
 }
