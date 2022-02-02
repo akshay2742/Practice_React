@@ -11,6 +11,7 @@ import EventBind from './components/EventBind'
 import ParentComp from './components/ParentComp';
 import UserGreeting from './components/UserGreeting';
 import LoginForm from './components/LoginForm';
+import NameList from './components/NameList';
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
      <UserGreeting>
      </UserGreeting>
      <LoginForm />
+     <NameList />
     </div>
   );
 }
