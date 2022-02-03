@@ -18,6 +18,7 @@ import TableParent from './components/TableParent';
 import LifecycleA from './components/LifecycleA';
 import PureComp from './components/PureComp';
 import ParentRegComp from './components/ParentRegComp';
+import RefDemo from './components/RefDemo';
 
 function App() {
 
@@ -50,11 +51,12 @@ function App() {
      <LoginForm />
      <NameList />
      <StyleSheet className={true}/> */}
-     <Form />
-     <TableParent />
+     {/* <Form />
+     <TableParent /> */}
      {/* <LifecycleA /> */}
-     <PureComp />
-     <ParentRegComp />
+     {/* <PureComp />
+     <ParentRegComp /> */}
+     <RefDemo />
     </div>
   );
 }
