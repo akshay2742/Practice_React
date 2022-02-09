@@ -21,8 +21,8 @@ class ParentRegComp extends Component {
   render() {
       console.log("ParentRegComp render")
     return (<div>
-        {/* <RegComp name={this.state.name} />
-        <PureComp name={this.state.name} /> */}
+        <RegComp name={this.state.name} />
+        <PureComp name={this.state.name} />
         <MemoComp name={this.state.name} />
     </div>);
   }

@@ -19,6 +19,20 @@ import LifecycleA from './components/LifecycleA';
 import PureComp from './components/PureComp';
 import ParentRegComp from './components/ParentRegComp';
 import RefDemo from './components/RefDemo';
+import ParentInput from './components/ParentInput';
+import ParentFRRef from './components/ParentFRRef';
+import PortalDemo from './components/PortalDemo';
+import Hero from './components/Hero';
+import ErrorBoundary from './components/ErrorBoundary';
+import ClickCount from './components/ClickCount';
+import HoverCount from './components/HoverCount';
+import ClickCounterTwo from './components/ClickCounterTwo';
+import HoverCounterTwo from './components/HoverCounterTwo';
+import RenderCounter from './components/RenderCounter';
+import { UserProvider } from './components/userContext';
+import ComponentD from './components/ComponentD';
+import ComponentE from './components/ComponentE';
+import PostList from './components/PostList';
 
 function App() {
 
@@ -54,9 +68,33 @@ function App() {
      {/* <Form />
      <TableParent /> */}
      {/* <LifecycleA /> */}
-     {/* <PureComp />
-     <ParentRegComp /> */}
-     <RefDemo />
+     {/* <PureComp /> */}
+     {/* <ParentRegComp />
+     <RefDemo /> */}
+     {/* <ParentInput /> */}
+     {/* <ParentFRRef /> */}
+     {/* <PortalDemo /> */}
+     {/* <ErrorBoundary>
+        <Hero heroName="Batman" />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Hero heroName="Superman" />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Hero heroName="Joker" />
+      </ErrorBoundary> */}
+     {/* <ClickCount name="Akshay" />
+     <HoverCount /> */}
+     <RenderCounter> 
+      {(count,increaseCount) => <ClickCounterTwo count={count} increaseCount={increaseCount}></ClickCounterTwo>}
+     </RenderCounter>
+     <RenderCounter> 
+      {(count,increaseCount) => <HoverCounterTwo count={count} increaseCount={increaseCount}></HoverCounterTwo>}
+     </RenderCounter>
+     <UserProvider value="Akshay">
+       <ComponentD />
+     </UserProvider>
+     <PostList />
     </div>
   );
 }
