@@ -33,6 +33,8 @@ import { UserProvider } from './components/userContext';
 import ComponentD from './components/ComponentD';
 import ComponentE from './components/ComponentE';
 import PostList from './components/PostList';
+import PostForm from './components/PostForm';
+import Weather from './components/Weather';
 
 function App() {
 
@@ -94,7 +96,9 @@ function App() {
      <UserProvider value="Akshay">
        <ComponentD />
      </UserProvider>
-     <PostList />
+     {/* <PostList />
+     <PostForm /> */}
+     <Weather />
     </div>
   );
 }
