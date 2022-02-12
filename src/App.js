@@ -35,6 +35,9 @@ import ComponentE from './components/ComponentE';
 import PostList from './components/PostList';
 import PostForm from './components/PostForm';
 import Weather from './components/Weather';
+import HookCounter from './components_hooks/HookCounter';
+import HookObject from './components_hooks/HookObject';
+import HookArray from './components_hooks/HookArray';
 
 function App() {
 
@@ -99,6 +102,9 @@ function App() {
      {/* <PostList />
      <PostForm /> */}
      <Weather />
+     <HookCounter />
+     <HookObject />
+     <HookArray />
     </div>
   );
 }
