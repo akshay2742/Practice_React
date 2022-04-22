@@ -38,6 +38,11 @@ import Weather from './components/Weather';
 import HookCounter from './components_hooks/HookCounter';
 import HookObject from './components_hooks/HookObject';
 import HookArray from './components_hooks/HookArray';
+import HookUseeffect from './components_hooks/HookUseeffect';
+import HookUseeffectOnce from './components_hooks/HookUseeffectOnce';
+import HookMove from './components_hooks/HookMove';
+import MouseContainer from './components_hooks/MouseContainer';
+import IntervalHookCounter from './components_hooks/IntervalHookCounter';
 
 function App() {
 
@@ -105,6 +110,10 @@ function App() {
      <HookCounter />
      <HookObject />
      <HookArray />
+     <HookUseeffect />
+     <HookUseeffectOnce />
+     <MouseContainer />
+     <IntervalHookCounter />
     </div>
   );
 }
