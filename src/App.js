@@ -107,6 +107,7 @@ function App() {
      {/* <PostList />
      <PostForm /> */}
      <Weather />
+     <Welcome name="Akshay" institute="NIT Raipur" />
      <HookCounter />
      <HookObject />
      <HookArray />
